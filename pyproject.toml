@@ -9,7 +9,9 @@ readme = "README.md"
 requires-python = ">=3.11,<3.14"
 dependencies = [
     "img2table (>=1.4.2,<2.0.0)",
-    "pandas (>=3.0.2,<4.0.0)"
+    "pandas (>=3.0.2,<4.0.0)",
+    "python-dotenv (>=1.2.2,<2.0.0)",
+    "pillow (>=12.2.0,<13.0.0)"
 ]
 
 
