@@ -1,0 +1,18 @@
+[project]
+name = "dw-extract-pdf-data"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Felipe Sebben",email = "felipesebben@yahoo.com.br"}
+]
+readme = "README.md"
+requires-python = ">=3.11,<3.14"
+dependencies = [
+    "img2table (>=1.4.2,<2.0.0)",
+    "pandas (>=3.0.2,<4.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"

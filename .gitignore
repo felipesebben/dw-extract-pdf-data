@@ -1,0 +1,11 @@
+# Project specific data security
+data/raw/
+data/processed/
+.env
+
+# Standard Python ignores
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+.pytest_cache/
